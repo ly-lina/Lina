@@ -10,7 +10,7 @@ const money = (amount) => new Intl.NumberFormat('vi-VN', { style: 'currency', cu
 function Logo({ onClick, inverse = false }) {
   return (
     <button onClick={onClick} className="flex shrink-0 items-center text-left" aria-label="LINA JSC — Trang chủ">
-      <img src="/logo-lina-jsc.png" alt="LINA JSC" className={`object-contain ${inverse ? 'h-[124px] w-[96px] p-1' : 'h-20 w-16'}`} />
+      <img src={`${import.meta.env.BASE_URL}logo-lina-jsc.png`} alt="LINA JSC" className={`object-contain ${inverse ? 'h-[124px] w-[96px] p-1' : 'h-20 w-16'}`} />
     </button>
   )
 }
