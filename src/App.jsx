@@ -98,7 +98,7 @@ function HomePage({ setPage, openProduct, addToCart, setActiveSolution }) {
             <button onClick={() => setPage('catalog')} className="flex h-12 items-center gap-2 border border-white/45 px-6 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-brand-800">Mua thiết bị <ArrowUpRight size={16} /></button>
           </div>
           <div className="mt-14 flex gap-8 border-t border-white/20 pt-6 sm:gap-14">
-            {[['15+', 'năm kinh nghiệm'], ['120+', 'dự án triển khai'], ['24/7', 'đồng hành kỹ thuật']].map(([value, label]) => <div key={label}><p className="font-display text-xl font-bold text-white">{value}</p><p className="mt-1 text-[10px] text-white/60">{label}</p></div>)}
+            {[['10+', 'năm kinh nghiệm'], ['120+', 'dự án triển khai'], ['24/7', 'đồng hành kỹ thuật']].map(([value, label]) => <div key={label}><p className="font-display text-xl font-bold text-white">{value}</p><p className="mt-1 text-[10px] text-white/60">{label}</p></div>)}
           </div>
         </div>
       </div>
